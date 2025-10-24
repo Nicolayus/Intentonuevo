@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700;800&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root{
+	--content-max-width: 1200px;
+}
+
+html,body,#root{
+	height:100%;
+}
+
+body{
+	@apply font-sans bg-gray-50;
+}
+
+.container-centered{
+	max-width:var(--content-max-width);
+	margin-left:auto;
+	margin-right:auto;
+	padding-left:1rem;
+	padding-right:1rem;
+}
